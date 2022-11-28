@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-logo {
+  font-family: "Homemade Apple";
+  font-size: 18px;
+  line-height: 39px;
+  color: #231f20;
+}
+
+.header-menu-links {
+  text-align: center;
+}
+
+.header-menu-link {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  color: #000000;
+  margin-left: 45px;
+}
+
+.header-menu-link:first-child {
+  margin: 0;
+}
+
+.header-menu-link:hover {
+  color: rgb(255, 190, 70);
+  transition: 0.2s;
+}
+
+.header-menu-button {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #f7941e;
+  text-decoration: none;
+  border: 2px solid #f7941e;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.header-menu-button:hover {
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.header-content {
+  width: 100%;
+  height: 100%;
+}
+
+.card1 {
+  width: 100%;
+  height: 45%;
+  display: flex;
+}
+
+.card-title {
+  font-family: "Roboto";
+  font-size: 56px;
+  line-height: 69px;
+  color: #000000;
+  padding-top: 10%;
+}
+
+.card-info {
+  width: 60%;
+  text-align: center;
+}
+
+.card-text {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.card-button {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px;
+  background-color: #f7941e;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card-photo {
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 5555px;
+  transition-duration: 0.5s;
+}
+
+.card-photo2 {
+  object-fit: cover;
+  background-position: center;
+
+  height: 100%;
+  margin-right: 50px;
+}
+
+.card-button:hover {
+  color: black;
+  transition: 0.2s;
+}
+
+.header-photo:hover .card-photo {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
